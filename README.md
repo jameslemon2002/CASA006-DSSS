@@ -1,11 +1,10 @@
 # CASA0006 Road Context and Severity Corridors
 
-This repository supports the submitted CASA0006 notebook:
+This repository supports the CASA0006 notebook:
 
 - `CASA0006_Road_Context_Severity_Corridors.ipynb`
-- `CASA0006_Road_Context_Severity_Corridors.pdf`
 
-The notebook is the source of truth. The PDF is exported from the executed notebook for Moodle Part 2.
+The notebook is the source of truth for the analysis.
 
 ## Required Data Files
 
@@ -30,15 +29,4 @@ No required file exceeds GitHub's 100 MB single-file limit. The largest required
 1. Open `CASA0006_Road_Context_Severity_Corridors.ipynb`.
 2. Restart the kernel.
 3. Run all cells.
-4. Export the executed notebook to a text-selectable PDF.
-
 The notebook uses standard spatial/data-science libraries used in the coursework environment: pandas, NumPy, GeoPandas, matplotlib, scikit-learn, and OSMnx.
-
-## Moodle Submission
-
-Submit two parts separately:
-
-- Part 1: the executed notebook, or a zip containing the notebook and relevant data files.
-- Part 2: the PDF exported from that same notebook.
-
-If the GitHub repository remains public and accessible, the notebook can be submitted as Part 1 without bundling the data. A backup zip can include the notebook, `framework.png`, and the required `pilot_data/` files listed above.
